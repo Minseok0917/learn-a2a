@@ -1,0 +1,26 @@
+{
+  "jsonrpc": "2.0",
+  "id": 9,
+  "method": "tasks/send",
+  "params": {
+    "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
+    "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
+    "message": {
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Analyze the attached report and generate high level overview"
+        },
+        {
+          "type": "file",
+          "file": {
+            "mimeType": "application/pdf",
+            "data": "<base64-encoded-content>"
+          }
+        }
+      ]
+    },
+    "metadata": {}
+  }
+}

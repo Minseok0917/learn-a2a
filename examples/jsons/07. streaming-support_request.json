@@ -1,0 +1,24 @@
+{
+  "method": "tasks/sendSubscribe",
+  "params": {
+    "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
+    "sessionId": "c295ea44-7543-4f78-b524-7a38915ad6e4",
+    "message": {
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "write a long paper describing the attached pictures"
+        },
+        {
+          "type": "file",
+          "file": {
+            "mimeType": "image/png",
+            "data": "<base64-encoded-content>"
+          }
+        }
+      ]
+    },
+    "metadata": {}
+  }
+}

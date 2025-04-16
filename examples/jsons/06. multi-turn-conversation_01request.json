@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "tasks/send",
+  "params": {
+    "id": "de38c76d-d54c-436c-8b9f-4c2703648d64",
+    "message": {
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "request a new phone for me"
+        }
+      ]
+    },
+    "metadata": {}
+  }
+}
